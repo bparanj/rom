@@ -4,7 +4,6 @@
 
 To learn about the introspection abilities of Ruby and the method look-up.
 
-
 # Steps
 
 ## Step 1
@@ -101,12 +100,4 @@ This prints: [:@text]
 # Summary
 
 In this chapter, you learned the introspection abilities of Ruby. We were able to query for instance variables, instance methods and ancestors. Why do we need to worry about class hierarchy in Ruby? Because it determines the method look-up in Ruby.
-
-
-
-
-
-
-
-
 
