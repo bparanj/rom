@@ -1,1 +1,6 @@
-# First Chapter
+# The Method Lookup in Ruby
+
+
+# 
+
+
