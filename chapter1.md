@@ -2,7 +2,7 @@
 
 ## Objective
 
-
+To learn about the current object 'self' and the top level context in Ruby.
 
 ## Steps
 
