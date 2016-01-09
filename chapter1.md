@@ -54,6 +54,17 @@ end
 p Greeter.ancestors
 ```
 
+This prints : [Greeter, Object, Kernel, BasicObject]. 
+
+The order in which the classes appear in the array represents the order in which Ruby looks for the methods. The sequence is as shown below:
+
+1. Greeter Class
+2. Object Class
+3. Kernel Module
+4. BasicObject Class
+
+ 
+
 
 
 
