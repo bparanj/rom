@@ -23,7 +23,7 @@ What is top level? You are in top level when you have not entered into a class o
 
 ### Step 2
 
-
+If main is an object, it must be instance of some class. We can ask Ruby to tell us which class main is an instance of:
 
 ```ruby
 
