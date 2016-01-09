@@ -17,7 +17,9 @@ puts self
 
 This prints: **main**. 
 
-This tells us that Ruby has created an object called **main** for us at the top level. And all the code we write at the top level will use **main** as the receiver in method calls. What is top level? You are in top level when you have not entered into a class or module definition or exited from all class or module definitions.
+This tells us that Ruby has created an object called **main** for us at the top level. And all the code we write at the top level will use **main** as the receiver in method calls. 
+
+What is top level? You are in top level when you have not entered into a class or module definition or exited from all class or module definitions.
 
 
 
