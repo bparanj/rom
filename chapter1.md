@@ -4,9 +4,9 @@
 
 To learn about the introspection abilities of Ruby and the method look-up.
 
-# Steps
+## Steps
 
-## Step 1
+### Step 1
 
 We already know that class Object is the super class of any user defined class. Let's define a greet method by opening the Ruby's built-in Object class.
 
@@ -18,7 +18,7 @@ class Object
 end
 ```
 
-## Step 2
+### Step 2
 
 Let's create a class and call the method greet on it.
 
@@ -35,7 +35,7 @@ This prints : 'hi'. The variable 'g' has an instance of Greeter class. When we c
 
 Then Ruby looks for the greet() method in the Greeter class. It does not find it there. It goes to the super-class of Greeter which is the Ruby's built-in Object class. The greet() method is in Object class, it calls that method.
 
-## Step 3
+### Step 3
 
 We can ask ruby for its method look up path like this:
 
@@ -63,7 +63,7 @@ The order in which the classes appear in the array represents the order in which
 4. BasicObject Class
 
  
-## Step 4
+### Step 4
 
 Let's look at a simple example that we can use to experiment and learn.
 
