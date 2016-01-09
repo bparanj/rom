@@ -2,7 +2,7 @@
 
 ## Objective
 
-To learn about the current object 'self' and the top level context in Ruby.
+To learn about the current object **self** and the top level context in Ruby.
 
 ## Steps
 
@@ -12,8 +12,10 @@ In Ruby, there is always one object that plays the role of current object which 
 
 
 ```ruby
-
+puts self
 ```
+
+
 
 ### Step 2
 
