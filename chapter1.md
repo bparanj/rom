@@ -36,6 +36,26 @@ This prints : 'hi'. The variable 'g' has an instance of Greeter class. When we c
 
 Then Ruby looks for the greet() method in the Greeter class. It does not find it there. It goes to the super-class of Greeter which is the Ruby's built-in Object class. The greet() method is in Object class, it calls that method.
 
+## Step 3
+
+We can ask ruby for its method look up path like this:
+
+```ruby
+class Object
+  def greet
+    p 'hi'
+  end
+end
+
+class Greeter
+
+end
+
+p Greeter.ancestors
+```
+
+
+
 
 
 
