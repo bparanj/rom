@@ -21,8 +21,6 @@ This tells us that Ruby has created an object called **main** for us at the top 
 
 What is top level? You are in top level when you have not entered into a class or module definition or exited from all class or module definitions.
 
-
-
 ### Step 2
 
 
