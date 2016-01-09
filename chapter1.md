@@ -34,7 +34,7 @@ g.greet
 
 This prints : 'hi'. The variable 'g' has an instance of Greeter class. When we call the greet() method, the value of self changes to the Greeter object 'g'.  
 
-Then Ruby looks for the greet() method in the Greeter class. It does not find it there. It goes to the super-class of Greeter which is the Object. The greet() method is in Object class, it calls that method.
+Then Ruby looks for the greet() method in the Greeter class. It does not find it there. It goes to the super-class of Greeter which is the Ruby's built-in Object class. The greet() method is in Object class, it calls that method.
 
 
 
