@@ -415,4 +415,4 @@ This prints:
 
 ## Summary
 
-In this chapter, we saw different ways to define class methods and singleton methods and where they live.
+In this chapter, we saw different ways to define class methods and singleton methods. We also learned where the singleton methods live.
