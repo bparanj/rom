@@ -111,7 +111,7 @@ end
 p Car.drive
 ```
 
-The last form of defining a class methods will lead to difficulty in maintenance. Because you cannot determine whether it is an instance method or a class method. This happens when the class methods are way down below its class << self declaration, 
+The last form of defining a class methods will lead to difficulty in maintenance. Because you cannot determine whether it is an instance method or a class method. This happens when the class methods are way down below its class << self declaration.
 
 ### Step 5
 
