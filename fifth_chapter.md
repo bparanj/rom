@@ -117,7 +117,7 @@ What class is this ghost class an instance of? Let's ask Ruby:
 p eigenclass.class
 ```
 
-This prints : Class
+This prints: Class
 
 ### Step 6
 
