@@ -48,14 +48,10 @@ p Class.public_instance_methods(false).sort
 ```
 
 This prints [:allocate, :new, :superclass]. As a developer you will not call **allocate()** method. You will use the **new()** and **superclass()** methods.
-
-
-
-
  
 ### Step 4
 
-Let's look at a simple example that we can use to experiment and learn.
+When you use the Ruby language keyword **class**, Ruby does something like this:
 
 ```ruby
 class Greeting
