@@ -12,11 +12,15 @@ In the previous chapter we experimented with user defined classes. We learned th
 
 What is the Ruby's built-in Object's class? In other words, Object is an object, so it must be an instance of some class, what is that class? We can ask Ruby:
 
+```ruby
 p Object.class
+```
+
 This prints : Class
 
-Step 2
-The Ruby's built-in Class itself is an object. So we can find out the class that is used to make instances of Class.
+### Step 2
+
+The Ruby's built-in Class itself is an object. We can find out the class used to make instances of Class.
 
 p Class.class
 This prints: Class. This seems to be similar to chicken and egg problem. How can Class be created from Class? But Ruby is very consistent. Whenever you use the language construct class to create a Class, either user defined or the existing Ruby's built-in classes, the Class will be used to create instances.
