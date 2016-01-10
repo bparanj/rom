@@ -145,7 +145,7 @@ This shows there is a whole new hierarchy consisting of ghost classes for Car, O
 p Car.ancestors
 ```
 
-This prints :
+This prints:
 
 [Car, Object, Kernel, BasicObject]
 Now we don't see any ghosts in this case.
