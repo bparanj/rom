@@ -134,7 +134,7 @@ c = Car.new
 p c.wheels
 ```
 
-Why would you want to do it the second way? The answer to this question is discussed in an upcoming article.
+Why would you want to do it the second way? The answer is discussed in an upcoming article.
 
 Step 9
 Let's now compare the methods in Module, Class and Object. Here are the methods in Module.
