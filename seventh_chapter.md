@@ -117,6 +117,7 @@ at_exit
 
 hook. Let's use the at_exit hook:
 
+```ruby
 at_exit do 
   p 'Chico has taken the stage' 
   begin
