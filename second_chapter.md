@@ -69,7 +69,7 @@ This prints **Class**. Since Car is an object you can call the instance method *
 car = Car.new
 ```
 
-As in step 1. Because new is an instance method provided by Ruby's built-in class called Class.
+As shown earlier in step 1. Because new is an instance method provided by Ruby's built-in class called Class.
 
 Step 5
 Let's create a subclass:
