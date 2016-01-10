@@ -66,7 +66,13 @@ get('/') do
 end
 ```
 
-This prints 'hi'. Mixing it to the Kernel also makes the get() method available at the top level and the method gets invoked immediately. We can make the get() method private, similar to puts method we encountered in the previous articles.
+This prints: 
+
+```ruby
+hi
+```
+
+Mixing it to the Kernel also makes the get() method available at the top level and the method gets invoked immediately. We can make the get() method private, similar to puts method we encountered in the previous articles.
 
 module Kernel
 
