@@ -5,4 +5,5 @@
 * [Some Chapter](second_chapter.md)
 * [Third Chapter](third_chapter.md)
 * Second Chapter
+* Fourth Chapter
 
