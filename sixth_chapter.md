@@ -128,7 +128,7 @@ This prints:
 driving
 ```
 
-Since this is a singleton method, the drive method is not available for other instances of Car. This implies that we cannot do this:
+Since this is a singleton method, the **drive()** method is not available for other instances of Car. This implies that we cannot do this:
 
 ```ruby
 b = Car.new
