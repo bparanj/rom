@@ -105,7 +105,7 @@ You can run it like this:
 $ruby mine.rb
 ```
 
-You can see that the server runs on port 4567. You can stop the server by doing Ctrl+C.
+You can see that the server runs on port 4567. You can stop the server by pressing Ctrl+C.
 
 Step 5
 How can we accomplish the same? If you read the source code for Sinatra, you will see that it uses atexit hook. Let's use the atexit hook:
