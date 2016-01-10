@@ -36,7 +36,11 @@ get '/' do
 end
 ```
 
-This prints 'hi'.
+This prints: 
+
+```ruby
+hi
+```
 
 Problems
 This method is invoked immediately.
