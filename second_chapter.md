@@ -93,7 +93,7 @@ What is the superclass of Beetle?
 p Beetle.superclass
 ```
 
-This prints Car. This is obvious since we defined Beetle to be subclass of Car. How about the Car class?
+This prints **Car**. This is obvious since we defined Beetle to be subclass of Car. How about the Car class?
 
 Step 7
 p Car.superclass
