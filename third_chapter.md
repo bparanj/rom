@@ -74,7 +74,8 @@ p Module.class
 
 This prints : Class
 
-Step 7
+### Step 7
+
 How can module be a class? Let's say we have a Vehicle module:
 
 module Vehicle
