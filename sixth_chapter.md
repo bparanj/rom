@@ -387,7 +387,7 @@ I am : Car
 
 ### Step 9
 
-As a last example, let's define a singleton_method on a string class.
+As a last example, let's define a singleton method on a string class.
 
 ```ruby
 car = 'Beetle'
