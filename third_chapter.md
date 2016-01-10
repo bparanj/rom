@@ -172,7 +172,7 @@ So you can see we can create instances of Module, Class and Object. Because they
 
 ### Step 10
 
-We already know that user defined classes are instances of Class. So instead of doing this:
+We already know that user defined classes are instances of Class. Instead of doing this:
 
 class Car
   def drive
