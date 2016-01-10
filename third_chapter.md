@@ -201,5 +201,5 @@ c.drive
 
 Both versions of the Car examples print 'driving...'. Why would you want to do it the second way? We will discuss the answer in an upcoming chapter.
 
-Summary
+## Summary
 In this article you learned the Ruby's built-in class hierarchy consisting of Class, Object, Module and BasicObject. You also saw how we can create modules and classes by creating them on the fly and adding methods to it.
