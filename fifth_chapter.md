@@ -34,11 +34,13 @@ end
 p Car.instance_methods(false).sort
 ```
 
-This prints [] because there is no instance methods in Car. So the question is where does the class methods live?
+This prints [] because there is no instance methods in Car. The question is where does the class methods live?
 
-Step 3
+### Step 3
+
 The class methods live in a ghostclass, eigenclass or metaclass. We can use a special syntax that gives us a reference to the ghost class as follows:
 
+```ruby
 class Car
   def self.drive
     p 'driving'
@@ -50,6 +52,8 @@ eigenclass = class << Car
 end
 
 p eigenclass.instance_methods(false).sort
+```
+
 This prints : [:drive]
 
 So, we can see that the ghost class holds the class method we have defined in the Car class. Ruby 1.9 introduced singleton_methods that can be used like this:
