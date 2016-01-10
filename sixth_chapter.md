@@ -161,7 +161,13 @@ end
 p c.drive
 ```
 
-This prints driving. Let's look at the singleton methods for Car class.
+This prints: 
+
+```ruby
+driving
+```
+
+Let's look at the singleton methods for Car class.
 
 ```ruby
 p c.singleton_methods
