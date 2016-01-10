@@ -71,7 +71,8 @@ car = Car.new
 
 As shown earlier in step 1. Because **new** is an instance method provided by Ruby's built-in class called **Class**.
 
-Step 5
+### Step 5
+
 Let's create a subclass:
 
 class Beetle < Car
