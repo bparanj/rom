@@ -231,4 +231,4 @@ Car.find
 
 ## Summary
 
-In this chapter, we designed experiments to answer the question : 'Where does the class method live?'. We found that they live in singleton class and they have their own hierarchy. We also saw that class methods are inherited by the subclasses.
+In this chapter, we designed experiments to answer the question : 'Where does the class method live?'. We found that they live in singleton class and they have their own hierarchy. We also saw that class methods are inherited by the sub classes.
