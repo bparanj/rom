@@ -341,7 +341,7 @@ This prints:
 Car
 ```
 
-We can also use **define_singleton_method()** to dynamically define singleton method in a class like this:
+We can also use **define_singleton_method()** to dynamically define singleton method. Here is an example that defines **to_s** singleton method in Car class:
 
 ```ruby
 class Car
