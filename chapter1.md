@@ -174,7 +174,7 @@ puts
 
 In this case we are not calling a private method in Object class but we are calling the public method **puts** in **IO class**. By the way, the false argument to the method filters out the methods from it's super-class.
 
-Summary
+## Summary
 
 In this chapter we briefly saw how everything is an object in Ruby and the role of **self** in a Ruby program. 
 
@@ -186,7 +186,4 @@ Answer the following questions either by creating an experiment or from your und
 4. How is puts available at the top level without a receiver?
 5. How to grab the top level default object?
 
-## Summary
-
-In this chapter, 
-
+If you can answer these questions, you are on your way to mastering the Ruby Object Model.
