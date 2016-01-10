@@ -179,6 +179,8 @@ This prints:
 [:drive]
 ```
 
+This step is the same as the previous step. 
+
 When we define a singleton method as in the previous step, we essentially define a method in the singleton class as illustrated in this step.
 
 ### Step 5
