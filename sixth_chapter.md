@@ -291,7 +291,7 @@ p c.stop
 p c.fly
 ```
 
-prints:
+print:
 
 ```ruby
 starting
