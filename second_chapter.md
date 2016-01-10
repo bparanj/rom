@@ -85,10 +85,14 @@ p Beetle.class
 
 This prints **Class**. Our new Beetle class also an instance of class **Class**. It gets the methods such as new(), superclass() and allocate() from **Class**.
 
-Step 6
-So what is the superclass of Beetle?
+### Step 6
 
+What is the superclass of Beetle?
+
+```ruby
 p Beetle.superclass
+```
+
 This prints Car. This is obvious since we defined Beetle to be subclass of Car. How about the Car class?
 
 Step 7
