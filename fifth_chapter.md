@@ -10,6 +10,7 @@ To answer the burning question : Where does the class methods live?
 
 Let's define a method drive() in Car class.
 
+```ruby
 class Car
   def drive
     p 'driving'
@@ -17,9 +18,13 @@ class Car
 end
 
 p Car.instance_methods(false).sort
+```
+
 This prints : [:drive]
 
-Step 2
+### Step 2
+
+```ruby
 class Car
   def self.drive
     p 'driving'
@@ -27,6 +32,8 @@ class Car
 end
 
 p Car.instance_methods(false).sort
+```
+
 This prints [] because there is no instance methods in Car. So the question is where does the class methods live?
 
 Step 3
