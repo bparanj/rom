@@ -75,11 +75,14 @@ As shown earlier in step 1. Because **new** is an instance method provided by Ru
 
 Let's create a subclass:
 
+```ruby
 class Beetle < Car
 
 end
 
 p Beetle.class
+```
+
 This prints 'Class'. Our new Beetle class also has class 'Class' from which it gets the methods such as new, superclass and allocate.
 
 Step 6
