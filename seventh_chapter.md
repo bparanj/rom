@@ -141,4 +141,4 @@ The current implementation for loop does not do anything. We need to listen for 
 
 ## Summary
 
-In this chapter, we applied the Ruby Object Model basics to develop a Sinatra Clone.
+In this chapter, we applied the Ruby Object Model basics to develop a structure for our Sinatra Clone.
