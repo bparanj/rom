@@ -115,7 +115,7 @@ How can we accomplish the same? If you read the source code for Sinatra, you wil
 at_exit
 ```
 
-hook. Let's use the atexit hook:
+hook. Let's use the at_exit hook:
 
 at_exit do 
   p 'Chico has taken the stage' 
