@@ -174,6 +174,7 @@ So you can see we can create instances of Module, Class and Object. Because they
 
 We already know that user defined classes are instances of Class. Instead of doing this:
 
+```ruby
 class Car
   def drive
     p 'driving...'
@@ -182,6 +183,8 @@ end
 
 c = Car.new
 c.drive
+```
+
 We can do this:
 
 Car = Class.new do
