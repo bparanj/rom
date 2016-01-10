@@ -164,7 +164,10 @@ Here is the methods in Object.
 p Object.public_methods(false).sort
 ```
 
+This prints:
+
 [:allocate, :new, :superclass]
+
 So you can see we can create instances of Module, Class and Object. Because they have the method new().
 
 Step 10
