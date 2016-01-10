@@ -8,7 +8,7 @@ To answer the burning question : Where does the class methods live?
 
 ### Step 1
 
-Let's define a method drive in Car class.
+Let's define a method drive() in Car class.
 
 class Car
   def drive
