@@ -54,6 +54,71 @@ This prints [:allocate, :new, :superclass]. As a developer you will not call **a
 When you use the Ruby language keyword **class**, Ruby does something like this:
 
 ```ruby
+Car = Class.new 
+```
+
+Let's print the class of Car.
+
+p Car.class
+This prints Class. Since Car is an object you can call the instance method 'new' like this:
+
+car = Car.new
+as in step 1. Because new is an instance method provided by Ruby's built-in class called Class.
+
+Step 5
+Let's create a subclass:
+
+class Beetle < Car
+
+end
+
+p Beetle.class
+This prints 'Class'. Our new Beetle class also has class 'Class' from which it gets the methods such as new, superclass and allocate.
+
+Step 6
+So what is the superclass of Beetle?
+
+p Beetle.superclass
+This prints Car. This is obvious since we defined Beetle to be subclass of Car. How about the Car class?
+
+Step 7
+p Car.superclass
+This prints : Object. The class Object is Ruby's built-in class. It comes into picture when you consider the inheritance hierarchy.
+
+Step 8
+This is implicit. So, no need to say:
+
+class Car < Object
+
+end
+
+p Car.class
+Step 9
+In the previous article, we saw the value of self.class is Object. So we can also do this:
+
+class Car < self.class
+
+end
+
+p Car.superclass
+This prints 'Object'.
+
+Step 10
+This makes the following code run just fine.
+
+class Car < self.class
+  def drive
+    puts 'driving...'
+  end
+end
+
+c = Car.new
+c.drive
+There is no need to explicitly specify the superclass in this case. But, that's what is going on behind the scenes.
+
+Summary
+In this article, we explored how everything is an object in Ruby. All objects are instances of the Ruby's built-in class called Class. The Ruby built-in Object comes into play in the inheritance hierarchy.
+```ruby
 
 ```
 
