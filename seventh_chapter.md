@@ -95,7 +95,10 @@ But, it will not solve any of our problems.
 
 Let's write a minimal Sinatra application. Create mine.rb:
 
+```ruby
 require 'sinatra'
+```
+
 You can run it like this:
 
 $ruby mine.rb
