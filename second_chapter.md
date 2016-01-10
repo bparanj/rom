@@ -93,15 +93,17 @@ What is the superclass of Beetle?
 p Beetle.superclass
 ```
 
-This prints **Car**. This is obvious since we defined Beetle to be subclass of Car. How about the Car class?
+This prints **Car**. This is obvious since we defined Beetle to be subclass of Car. 
 
 ### Step 7
+
+How about the Car class?
 
 ```ruby
 p Car.superclass
 ```
 
-This prints : Object. The class Object is Ruby's built-in class. It comes into picture when you consider the inheritance hierarchy.
+This prints : Object. The class **Object** is Ruby's built-in class. It comes into picture when you consider the inheritance hierarchy.
 
 Step 8
 This is implicit. So, no need to say:
