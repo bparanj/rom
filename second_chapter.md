@@ -54,18 +54,7 @@ This prints [:allocate, :new, :superclass]. As a developer you will not call **a
 When you use the Ruby language keyword **class**, Ruby does something like this:
 
 ```ruby
-class Greeting
-  def initialize(text)
-    @text = text
-  end
 
-  def welcome
-    @text
-  end
-end
-
-o = Greeting.new('Hi')
-p o.class
 ```
 
 This prints : 'Greeting'. We know the instance of Greeting, the object 'o' gets created using the Greeting class. We can also get the instance methods, instance variables as follows:
