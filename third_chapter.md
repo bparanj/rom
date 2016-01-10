@@ -168,7 +168,7 @@ This prints:
 
 [:allocate, :new, :superclass]
 
-So you can see we can create instances of Module, Class and Object. Because they have the method new().
+So you can see we can create instances of Module, Class and Object. Because they have the method **new()**.
 
 Step 10
 We already know that user defined classes are instances of Class. So instead of doing this:
