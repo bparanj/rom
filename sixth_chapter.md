@@ -248,16 +248,25 @@ flying
 
 The first call is a class method call and the other three are singleton method calls.
 
-Step 7
+### Step 7
+
 We can also ask Ruby for the singleton_class of a Class like this:
 
+```ruby
 class Car
 end
 
 p Car.singleton_class
-This prints : #Class:Car
+```
 
-Step 8
+This prints: 
+
+```ruby
+#Class:Car
+```
+
+### Step 8
+
 Let's look at a simple example for displaying the name of the singleton_class:
 
 class Car
