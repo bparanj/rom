@@ -91,8 +91,9 @@ end
 
 But, it will not solve any of our problems.
 
-Step 4
-Let's write the minimal Sinatra application. Create mine.rb:
+### Step 4
+
+Let's write a minimal Sinatra application. Create mine.rb:
 
 require 'sinatra'
 You can run it like this:
