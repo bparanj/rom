@@ -117,15 +117,19 @@ end
 p Car.class
 ```
 
-Step 9
-In the previous article, we saw the value of self.class is Object. So we can also do this:
+### Step 9
 
+In the previous chapter, we saw the value of self.class is Object. We can also do this:
+
+```ruby
 class Car < self.class
 
 end
 
 p Car.superclass
-This prints 'Object'.
+```
+
+This prints **Object**.
 
 Step 10
 This makes the following code run just fine.
