@@ -208,10 +208,13 @@ class Car
 end
 
 Car.drive
+```
+
 This prints: driving
 
-Subclasses can call it's parent's class methods. If you are familiar with ActiveRecord library of Rails, we can do something like this:
+Sub classes can call it's parent's class methods. If you are familiar with ActiveRecord library of Rails, we can do something like this:
 
+```ruby
 module ActiveRecord
   class Base
     def self.find
@@ -224,5 +227,8 @@ class Car < ActiveRecord::Base
 end
 
 Car.find
-Summary
-In this article, we designed experiments to answer the question : 'Where does the class method live?'. We found that they live in singleton class and they have their own hierarchy. We also saw that class methods are inherited by the subclasses.
+```
+
+## Summary
+
+In this chapter, we designed experiments to answer the question : 'Where does the class method live?'. We found that they live in singleton class and they have their own hierarchy. We also saw that class methods are inherited by the subclasses.
