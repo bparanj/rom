@@ -47,6 +47,8 @@ hi
 * The **get()** method is invoked immediately.
 * Opening the Object class to add the get method makes it available everywhere.
 
+In Sinatra apps, the get() method gets called only when a request is made to that specific URI.
+
 Step 3
 How to mixin a method to top level?
 
