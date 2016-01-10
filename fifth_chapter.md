@@ -147,11 +147,14 @@ p Car.ancestors
 
 This prints:
 
+```ruby
 [Car, Object, Kernel, BasicObject]
+```
 
 Now we don't see any ghosts in this case.
 
-Step 7
+### Step 7
+
 We can go one level up and do a similar experiment.
 
 class Object
