@@ -269,6 +269,7 @@ This prints:
 
 Let's look at a simple example for displaying the name of the singleton_class:
 
+```ruby
 class Car
   class << self
     def class_name
@@ -278,8 +279,17 @@ class Car
 end
 
 p Car.class_name
-This prints : 'Car'. We also use definemethod to dynamically define the classname like this:
+```ruby
 
+This prints: 
+
+```ruby
+Car
+```
+
+We also use define method to dynamically define the class like this:
+
+```ruby
 class Car
 
 end
@@ -289,8 +299,17 @@ Car.define_singleton_method(:class_name) do
 end
 
 p Car.class_name
-This still prints : 'Car'. Let's combine these two above into one example:
+```
 
+This still prints:
+
+```ruby
+Car
+```
+
+Let's combine these two above into one example:
+
+```ruby
 class Car
   class << self
     def class_name
@@ -304,18 +323,38 @@ Car.define_singleton_method(:whoami) do
 end
 
 p Car.whoami
-This prints : I am : Car
+```
 
-Step 9
+This prints: 
+
+```ruby
+I am : Car
+```
+
+### Step 9
+
 As a last example, let's define a singleton_method on a string class.
 
+```ruby
 car = 'Beetle'
 car.define_singleton_method(:drive) { "You are driving : #{self}"}
 p car.drive
-This prints : You are driving : Beetle. Let's check the singleton methods for this specific string object.
+```
 
+This prints: 
+
+```ruby
+You are driving : Beetle
+```
+
+Let's check the singleton methods for this specific string object.
+
+```ruby
 p car.singleton_methods
+```
+
 This prints [:drive].
 
-Summary
-In this article, we saw different ways to define class methods and singleton methods and where they live.
+## Summary
+
+In this chapter, we saw different ways to define class methods and singleton methods and where they live.
