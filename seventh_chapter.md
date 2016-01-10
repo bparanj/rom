@@ -20,8 +20,9 @@ If you run this program, you get:
 NoMethodError: undefined method ‘get’ for main:Object
 ```
 
-Step 2
-We can open the Object class and define the get method:
+### Step 2
+
+We can open the Object class and define the **get()** method:
 
 class Object
   def get(path)
