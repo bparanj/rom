@@ -79,6 +79,102 @@ NameError: undefined local variable or method ‘main’ for main:Object
 
 Even though Ruby prints **main** as the current object at the top level. There is no such variable called **main**. The **main** is the human visible representation of the current object.
 
+### Step 6
+
+You might be curious: How do we grab the top level default object (**main**)? Let's grab the value of the current object from the **self** and assign it to our own variable **m**.
+
+```ruby
+m = self
+
+m.puts 'hi'
+```
+
+We get the same error message as we did in step 4.
+
+```ruby
+NoMethodError: private method ‘puts’ called for main:Object
+```
+
+We cannot call the puts private method with an explicit receiver. This is like doing:
+
+```ruby
+class Car
+
+  private
+
+  def change_gear
+    'changing gear'
+  end
+end
+
+c = Car.new
+c.change_gear
+```
+
+This will give you the following error.
+
+```sh
+NoMethodError: private method ‘change_gear’ called for #<Car:0x007>
+```
+
+### Step 7
+
+We can use **send()** method to send the **puts()** message to the **main** object:
+
+```ruby
+m = self
+
+m.send(:puts,'hi')
+will work and is the same as:
+
+self.send(:puts,'hi')
+```
+
+This breaks encapsulation and is generally not a good idea unless you have a good reason to do so.
+
+#### Lesson Learned
+
+The self takes the value of an instance of Object, this is **main**. The value of self is implicit, you cannot explicitly provide a receiver to call private methods. For instance, you must call the **puts()** without a receiver at the top level.
+
+### Step 8
+
+In the Ruby documentation, puts is an instance method in IO class.
+
+```ruby
+io = IO.new(1)
+io.puts 'hello'
+```
+
+The IO constructor argument 1 here indicates standard output. This prints 'hello' to standard output.
+
+Step 9
+It's the same as doing:
+
+$stdout.puts 'hello'
+Here the $stdout is the global variable for standard output. How come we were able to provide an explicit receiver in this case?
+
+Step 10
+Let's ask Ruby for the public instance methods of IO class.
+
+puts IO.public_instance_methods(false).grep(/put/)
+The result shows that the puts is a public method:
+
+putc
+puts
+So, in this case we are not calling a private method in Object class but we are calling the public method puts in IO class. By the way, the false argument to the method filters out the methods from it's superclass.
+
+Summary
+In this lesson we briefly saw how everything is an object in Ruby and the role of self in a Ruby program. If you can answer the following questions either by creating an experiment or from the top of your head, you are on your way to mastering the Ruby Object Model.
+
+What is self?
+Why an explicit receiver cannot be used to call puts at the top level?
+Where is puts defined if you are calling from top level?
+How is puts available at the top level without a receiver?
+How to grab the top level default object?
+
+
+
+
 ## Summary
 
 In this chapter, 
