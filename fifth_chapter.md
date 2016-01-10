@@ -107,7 +107,7 @@ end
 p Car.drive
 ```
 
-The last form of defining a class methods will lead to difficulty in maintenance. Because when the class methods are way down below its class << self declaration, you cannot determine whether it is a instance method or a class method.
+The last form of defining a class methods will lead to difficulty in maintenance. Because when the class methods are way down below its class << self declaration, you cannot determine whether it is an instance method or a class method.
 
 Step 5
 What class is this ghost class an instance of? Let's ask Ruby:
