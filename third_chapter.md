@@ -78,6 +78,7 @@ This prints : Class
 
 How can module be a class? Let's say we have a Vehicle module:
 
+```ruby
 module Vehicle
   def wheels
     1000
@@ -85,6 +86,8 @@ module Vehicle
 end
 
 p Vehicle.class
+```
+
 This prints : Module. The Module is a class because Ruby defines Module like this:
 
 class Module
