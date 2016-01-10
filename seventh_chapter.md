@@ -109,7 +109,7 @@ You can see that the server runs on port 4567. You can stop the server by pressi
 
 ### Step 5
 
-How can we accomplish the same? If you read the source code for Sinatra, you will see that it uses 
+How can we accomplish the same? If you read the source code for Sinatra, you will see that it uses:
 
 ```ruby
 at_exit
