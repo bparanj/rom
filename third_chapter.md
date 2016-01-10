@@ -50,17 +50,28 @@ p BasicObject.superclass
 
 This prints **nil**. This means **BasicObject** is the root of the hierarchy. The BasicObject is an instance of Class. You can verify it like this:
 
+```ruby
 p BasicObject.class
-Step 5
-What is the superclass of Class?
+```
 
+### Step 5
+
+What is the super-class of Class?
+
+```ruby
 p Class.superclass
+```
+
 This prints : Module.
 
-Step 6
+### Step 6
+
 The class Module is an object. What class is it an instance of?
 
+```ruby
 p Module.class
+```
+
 This prints : Class
 
 Step 7
