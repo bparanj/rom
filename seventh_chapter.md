@@ -127,6 +127,8 @@ at_exit do
     puts "Yay! The crowd applauds."
   end
 end
+```
+
 Another way to interrupt the Ctrl-C:
 
 Signal.trap('SIGNINT') do
