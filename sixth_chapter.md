@@ -270,7 +270,7 @@ This prints:
 [:fly, :drive, :stop]
 ```
 
-We can exclude methods that is included in module by passing false flag to the singleton_methods like this:
+We can exclude methods that is included in the module by passing false flag to the singleton_methods like this:
 
 ```ruby
 p c.singleton_methods(false)
