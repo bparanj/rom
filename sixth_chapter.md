@@ -183,7 +183,12 @@ This step is the same as the previous step. They both illustrate different ways 
 
 ### Step 5
 
-Instead of defining the singleton method directly inside the class << obj construct, we can also mixin the method from a module like this:
+An alternative to defining a singleton method using:
+
+```ruby
+class << obj
+```
+construct is to mixin the method from a module. Here is an example:
 
 ```ruby
 module Driveable
