@@ -123,8 +123,11 @@ This prints : Class
 
 What is object hierarchy of the ghost class? Let's ask Ruby:
 
+```ruby
 p eigenclass.ancestors
-This prints :
+```
+
+This prints:
 
 [#<Class:Car>, #<Class:Object>, #<Class:BasicObject>, Class, Module, Object, Kernel, BasicObject]
 In Ruby 1.9 and later, we can also do:
