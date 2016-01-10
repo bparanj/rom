@@ -139,5 +139,6 @@ end
 
 The current implementation for loop method does not do anything. We need to listen for incoming requests and call the corresponding methods defined by the developer. We will discuss it in upcoming chapters.
 
-Summary
-In this article, we applied the Ruby Object Model basics to develop a Sinatra Clone.
+## Summary
+
+In this chapter, we applied the Ruby Object Model basics to develop a Sinatra Clone.
