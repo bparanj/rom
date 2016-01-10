@@ -91,6 +91,8 @@ class Car
 end
 
 p Car.drive
+```
+
 and this:
 
 class Car
