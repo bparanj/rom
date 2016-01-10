@@ -46,7 +46,7 @@ end
 Car.drive
 ```
 
-This also prints 'driving'. We now see that Car is a instance of class Class so it is a singleton method from that perspective. This accomplishes the same thing as this example:
+This also prints 'driving'. We now see that Car is an instance of class Class so it is a singleton method from that perspective. This accomplishes the same thing as this example:
 
 ```ruby
 Car = Class.new
