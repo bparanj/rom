@@ -59,7 +59,10 @@ Car = Class.new
 
 Let's print the class of Car.
 
+```ruby
 p Car.class
+```
+
 This prints Class. Since Car is an object you can call the instance method 'new' like this:
 
 car = Car.new
