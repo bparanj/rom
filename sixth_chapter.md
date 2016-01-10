@@ -407,7 +407,11 @@ Let's check the singleton methods for this specific string object.
 p car.singleton_methods
 ```
 
-This prints [:drive].
+This prints:
+
+```ruby
+[:drive]
+```
 
 ## Summary
 
