@@ -22,6 +22,8 @@ p Car.instance_methods(false).sort
 
 This prints : [:drive]
 
+There is no surprise here, if we define an instance method, it shows up in the output.
+
 ### Step 2
 
 What if we had defined a class method **drive()** instead?
