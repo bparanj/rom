@@ -37,6 +37,8 @@ end
 p Car.class
 ```
 
+This prints **Class**. The Car class is an instance of a class called **Class**.
+
 
 
 
