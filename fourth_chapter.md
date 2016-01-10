@@ -82,7 +82,7 @@ o = Greeting.new('Hi')
 p o.class
 ```
 
-This prints : 'Greeting'. We know the instance of Greeting, the object 'o' gets created using the Greeting class. We can also get the instance methods, instance variables as follows:
+This prints : 'Greeting'. We know the instance of Greeting, the object **o** gets created using the Greeting class. We can also get the instance methods, instance variables as follows:
 
 
 ```ruby
