@@ -62,7 +62,7 @@ We can see that the ghost class holds the class method we have defined in the Ca
 p Car.singleton_methods
 ```
 
-This prints [:drive]. Thanks to Stefan Rusterholz feedback on rubyflow.com.
+This prints [:drive].
 
 Step 4
 To illustrate the point made in the previous step, we can define the class method for Car in it's singleton like this:
