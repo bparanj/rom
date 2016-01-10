@@ -149,6 +149,7 @@ This prints [:drive]. When we define a singleton method as in the previous step,
 
 Instead of defining the singleton method directly inside the class << obj construct, we can also mixin the method from a module like this:
 
+```ruby
 module Driveable
   def drive
     'driving'
@@ -165,19 +166,27 @@ class << c
 end
 
 p c.drive
+```
+
 This prints driving.
 
+```ruby
 p c.singleton_methods
+```
+
 This prints [:drive]. This does the same thing we did in previous step.
 
-Step 6
+### Step 6
+
 Let's now combine all the different ways we have seen so far:
 
-Defining a class method in a Class.
-Defining a singleton method for a specific car object.
-Using mixin to define a singleton method.
+* Defining a class method in a Class.
+* Defining a singleton method for a specific car object.
+* Using mixin to define a singleton method.
+
 into one grand example:
 
+```ruby
 module Stoppable
   def stop
     'stopping'    
@@ -205,24 +214,37 @@ class << c
 end
 
 p Car.singleton_methods
+```
+
 This prints [:start]
 
+```ruby
 p c.singleton_methods
+```
+
 This prints [:fly, :drive, :stop]. We can exclude methods that is included in module by passing false flag to the singleton_methods like this:
 
+```ruby
 p c.singleton_methods(false)
+```
+
 This prints [:fly, :drive]
 
+```ruby
 p Car.start
 p c.drive
 p c.stop
 p c.fly
+```
+
 prints:
 
+```ruby
 starting
 driving
 stopping
 flying
+```
 
 The first call is a class method call and the other three are singleton method calls.
 
