@@ -74,12 +74,17 @@ end
 p Car.singleton_methods
 ```
 
-This prints : [:drive]. The effect is the same as step 1, we can still call the drive method like this:
+This prints : [:drive]. The effect is the same as step 1, we can still call the **drive()** method like this:
 
+```ruby
 Car.drive
-Step 3
+```
+
+### Step 3
+
 Let's define a singleton method called drive for an instance of Car class like this:
 
+```ruby
 class Car
 
 end
@@ -91,18 +96,32 @@ def c.drive
 end
 
 p c.singleton_methods
+```
+
 This prints : [:drive]. We can call the singleton method drive like this:
 
-p c.drive 
-This prints 'driving'. Since this is a singleton method, the drive method is not available for other instances of Car. So, we cannot do this:
+```ruby
+p c.drive
+```
 
+This prints 'driving'. Since this is a singleton method, the drive method is not available for other instances of Car. This implies that we cannot do this:
+
+```ruby
 b = Car.new
 b.drive
-We get the error : NoMethodError: undefined method ‘drive’ for Car.
+```
 
-Step 4
+We get the error: 
+
+```ruby
+NoMethodError: undefined method ‘drive’ for Car.
+```
+
+### Step 4
+
 We can do what we did in previous step like this:
 
+```ruby
 class Car
 
 end
@@ -116,12 +135,18 @@ class << c
 end
 
 p c.drive
+```
+
 This prints driving. Let's look at the singleton methods for Car class.
 
+```ruby
 p c.singleton_methods
-This prints [:drive]. So, when we define a singleton method like we did in previous step, we are essentially defining a method in the singleton class as illustrated in this step.
+```
 
-Step 5
+This prints [:drive]. When we define a singleton method as in the previous step, we are essentially defining a method in the singleton class as illustrated in this step.
+
+### Step 5
+
 Instead of defining the singleton method directly inside the class << obj construct, we can also mixin the method from a module like this:
 
 module Driveable
