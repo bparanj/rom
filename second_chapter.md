@@ -44,9 +44,10 @@ This prints **Class**. The Car class is an instance of a class called **Class**.
 The **Class** is Ruby's built-in class that provides the new method that we can use to instantiate the car object.
 
 ```ruby
-
-
+p Class.public_instance_methods(false).sort
 ```
+
+
 
 
  
