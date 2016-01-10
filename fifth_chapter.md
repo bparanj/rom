@@ -157,6 +157,7 @@ Now we don't see any ghosts in this case.
 
 We can go one level up and do a similar experiment.
 
+```ruby
 class Object
   def self.drive
     p 'driving'
@@ -168,21 +169,35 @@ self
 end
 
 p g.ancestors
+```
+
 This prints:
 
+```ruby
 [#<Class:Object>, #<Class:BasicObject>, Class, Module, Object, Kernel, BasicObject]
-Step 8
+```
+
+### Step 8
+
 Let's go one more level up and repeat a similar experiment.
 
+```ruby
 g = class << BasicObject
 self
 end
 
 p g.ancestors
+```
+
 This prints:
 
+```ruby
 [#<Class:BasicObject>, Class, Module, Object, Kernel, BasicObject]
-Step 9
+```
+
+### Step 9
+
+```ruby
 class BasicObject
   def self.drive
     p 'driving...'
