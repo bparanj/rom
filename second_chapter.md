@@ -109,11 +109,14 @@ This prints : Object. The class **Object** is Ruby's built-in class. It comes in
 
 This is implicit. There is no need to say:
 
+```ruby
 class Car < Object
 
 end
 
 p Car.class
+```
+
 Step 9
 In the previous article, we saw the value of self.class is Object. So we can also do this:
 
