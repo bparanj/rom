@@ -83,7 +83,7 @@ end
 p Beetle.class
 ```
 
-This prints **Class**. Our new Beetle class also has class **Class** from which it gets the methods such as new(), superclass() and allocate().
+This prints **Class**. Our new Beetle class also has class **Class**. It gets the methods such as new(), superclass() and allocate() from **Class**.
 
 Step 6
 So what is the superclass of Beetle?
