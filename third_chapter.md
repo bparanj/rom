@@ -5,9 +5,12 @@
 To learn the hierarchy of Ruby built-in classes, Class, Object and Module.
 
 ## Steps
+
 ### Step 1
 
-In the previous chapter we experimented with user defined classes. We learned that user defined classes implicitly extend from Object. What is the Ruby's built-in Object's class? In other words, Object is an object, so it must be an instance of some class, what is that class? We can ask Ruby:
+In the previous chapter we experimented with user defined classes. We learned that user defined classes implicitly extend from Object. 
+
+What is the Ruby's built-in Object's class? In other words, Object is an object, so it must be an instance of some class, what is that class? We can ask Ruby:
 
 p Object.class
 This prints : Class
