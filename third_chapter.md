@@ -90,12 +90,19 @@ p Vehicle.class
 
 This prints : Module. The Module is a class because Ruby defines Module like this:
 
+```ruby
 class Module
 
 end 
-Step 8
-So instead of doing this:
+```
 
+You already know that everything in Ruby is an object.
+
+### Step 8
+
+Instead of doing this:
+
+```ruby
 module Vehicle
   def wheels
     100
@@ -108,6 +115,8 @@ end
 
 c = Car.new
 p c.wheels
+```
+
 We can do the same thing we did above like this:
 
 Vehicle = Module.new do
