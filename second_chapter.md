@@ -107,7 +107,7 @@ This prints : Object. The class **Object** is Ruby's built-in class. It comes in
 
 ### Step 8
 
-This is implicit. There is no need to say:
+This is implicit. There is no need to explicitly provide the super class:
 
 ```ruby
 class Car < Object
