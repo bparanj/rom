@@ -23,7 +23,7 @@ c.drive
 
 This prints: 'driving...'.
 
-We created an instance of our car class and called the drive method.
+We created an instance of our car class and called the drive() method.
 
 ### Step 2
 
