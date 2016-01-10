@@ -1,4 +1,4 @@
-# The Method Lookup in Ruby
+# Class and Object
 
 ## Objective
 
