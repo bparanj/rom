@@ -282,6 +282,8 @@ This prints:
 [:fly, :drive]
 ```
 
+This:
+
 ```ruby
 p Car.start
 p c.drive
