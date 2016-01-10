@@ -26,7 +26,13 @@ end
 p Car.singleton_methods
 ```
 
-This prints : [:drive]. We can call the class method like this:
+This prints : 
+
+```ruby
+[:drive]
+```
+
+We can call the class method like this:
 
 ```ruby
 Car.drive
