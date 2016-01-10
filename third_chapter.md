@@ -22,8 +22,11 @@ This prints : Class
 
 The Ruby's built-in Class itself is an object. We can find out the class used to make instances of Class.
 
+```ruby
 p Class.class
-This prints: Class. This seems to be similar to chicken and egg problem. How can Class be created from Class? But Ruby is very consistent. Whenever you use the language construct class to create a Class, either user defined or the existing Ruby's built-in classes, the Class will be used to create instances.
+```
+
+This prints: Class. This seems to be like chicken and egg problem. How can Class be created from Class? But Ruby is very consistent. Whenever you use the language construct class to create a Class, either user defined or the existing Ruby's built-in classes, the Class will be used to create instances.
 
 Step 3
 In the previous article, we saw that Object was the superclass of any user defined class. What is the superclass of Object?
