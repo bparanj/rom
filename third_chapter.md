@@ -44,6 +44,8 @@ This prints : BasicObject
 
 ```ruby
 p BasicObject.superclass
+```
+
 prints nil. This means BasicObject is the root of the hierarchy. The BasicObject is an instance of Class. You can verify it like this:
 
 p BasicObject.class
