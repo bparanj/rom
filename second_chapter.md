@@ -63,9 +63,12 @@ Let's print the class of Car.
 p Car.class
 ```
 
-This prints Class. Since Car is an object you can call the instance method 'new' like this:
+This prints **Class**. Since Car is an object you can call the instance method **new** like this:
 
+```ruby
 car = Car.new
+```
+
 as in step 1. Because new is an instance method provided by Ruby's built-in class called Class.
 
 Step 5
