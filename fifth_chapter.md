@@ -24,6 +24,8 @@ This prints : [:drive]
 
 ### Step 2
 
+What if we had defined a class method instead?
+
 ```ruby
 class Car
   def self.drive
