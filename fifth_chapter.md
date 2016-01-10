@@ -56,7 +56,7 @@ p eigenclass.instance_methods(false).sort
 
 This prints : [:drive]
 
-So, we can see that the ghost class holds the class method we have defined in the Car class. Ruby 1.9 introduced singleton_methods that can be used like this:
+We can see that the ghost class holds the class method we have defined in the Car class. Ruby 1.9 introduced singleton_methods that we can use like this:
 
 p Car.singleton_methods
 This prints [:drive]. Thanks to Stefan Rusterholz feedback on rubyflow.com.
