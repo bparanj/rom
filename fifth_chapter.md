@@ -129,7 +129,10 @@ p eigenclass.ancestors
 
 This prints:
 
+```ruby
 [#<Class:Car>, #<Class:Object>, #<Class:BasicObject>, Class, Module, Object, Kernel, BasicObject]
+```
+
 In Ruby 1.9 and later, we can also do:
 
 p Car.singleton_class.ancestors
