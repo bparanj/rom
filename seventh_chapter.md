@@ -101,7 +101,10 @@ require 'sinatra'
 
 You can run it like this:
 
+```ruby
 $ruby mine.rb
+```
+
 You can see that the server runs on port 4567. You can stop the server by doing Ctrl+C.
 
 Step 5
