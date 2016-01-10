@@ -173,7 +173,13 @@ Let's look at the singleton methods for Car class.
 p c.singleton_methods
 ```
 
-This prints [:drive]. When we define a singleton method as in the previous step, we are essentially defining a method in the singleton class as illustrated in this step.
+This prints: 
+
+```ruby
+[:drive]
+```
+
+When we define a singleton method as in the previous step, we are essentially defining a method in the singleton class as illustrated in this step.
 
 ### Step 5
 
