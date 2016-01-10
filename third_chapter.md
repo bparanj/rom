@@ -140,17 +140,30 @@ Why would you want to do it the second way? We will discuss the answer in an upc
 
 Let's now compare the methods in Module, Class and Object. Here are the methods in Module.
 
+```ruby
 p Module.public_methods(false).sort
+```
+
 This prints:
 
 [:allocate, :constants, :nesting, :new, :superclass]
+
 Here is the methods in Class.
 
+```ruby
 p Class.public_methods(false).sort
+```
+
+This prints:
+
 [:allocate, :constants, :nesting, :new, :superclass]
+
 Here is the methods in Object.
 
+```ruby
 p Object.public_methods(false).sort
+```
+
 [:allocate, :new, :superclass]
 So you can see we can create instances of Module, Class and Object. Because they have the method new().
 
