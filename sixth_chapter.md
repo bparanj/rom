@@ -333,7 +333,7 @@ class Car
 end
 
 p Car.class_name
-```ruby
+```
 
 This prints: 
 
