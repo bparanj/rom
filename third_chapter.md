@@ -32,7 +32,7 @@ Whenever you use the language construct **class** to create a Class, Ruby uses C
 
 ### Step 3
 
-In the previous article, we saw that Object was the super-class of any user defined class. What is the super-class of Object?
+In the previous chapter, we saw that Object was the super-class of any user defined class. What is the super-class of Object?
 
 ```ruby
 p Object.superclass
@@ -42,11 +42,13 @@ This prints : BasicObject
 
 ### Step 4
 
+What is the super-class of BasicObject?
+
 ```ruby
 p BasicObject.superclass
 ```
 
-prints nil. This means BasicObject is the root of the hierarchy. The BasicObject is an instance of Class. You can verify it like this:
+This prints **nil**. This means **BasicObject** is the root of the hierarchy. The BasicObject is an instance of Class. You can verify it like this:
 
 p BasicObject.class
 Step 5
