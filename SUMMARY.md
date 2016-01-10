@@ -7,4 +7,5 @@
 * [Fourth Chapter](fourth_chapter.md)
 * [Fifth Chapter](fifth_chapter.md)
 * [Sixth Chapter](sixth_chapter.md)
+* Seventh Chapter
 
