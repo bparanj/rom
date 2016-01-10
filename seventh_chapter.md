@@ -53,6 +53,7 @@ In Sinatra apps, the get() method gets called only when a request is made to tha
 
 How to mixin a method to top level?
 
+```ruby
 module Kernel
 
   def get(path)
@@ -63,6 +64,8 @@ end
 get('/') do
   p 'hi'
 end
+```
+
 This prints 'hi'. Mixing it to the Kernel also makes the get() method available at the top level and the method gets invoked immediately. We can make the get() method private, similar to puts method we encountered in the previous articles.
 
 module Kernel
