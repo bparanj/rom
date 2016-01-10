@@ -131,9 +131,12 @@ end
 
 Another way to interrupt the Ctrl-C:
 
+```ruby
 Signal.trap('SIGNINT') do
 
 end 
+```
+
 The current implementation for loop method does not do anything. We need to listen for incoming requests and call the corresponding methods defined by the developer. We will discuss it in upcoming articles.
 
 Summary
