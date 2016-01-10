@@ -87,6 +87,8 @@ end
 get('/') do
   p 'hi'
 end
+```
+
 But, it will not solve any of our problems.
 
 Step 4
