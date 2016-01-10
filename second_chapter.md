@@ -47,6 +47,8 @@ The **Class** is Ruby's built-in class that provides the **new()** method that w
 p Class.public_instance_methods(false).sort
 ```
 
+This prints [:allocate, :new, :superclass]. As a developer you will not call **allocate()** method. You will use the **new()** and **superclass** methods.
+
 
 
 
