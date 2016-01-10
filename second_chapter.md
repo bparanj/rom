@@ -8,18 +8,35 @@ To learn about the Ruby's built-in Class and Object.
 
 ### Step 1
 
+Let's take a look at user defined classes.
 
 ```ruby
+class Car 
+  def drive
+    puts 'driving...'
+  end
+end
 
+c = Car.new
+c.drive
 ```
+
+This prints: 'driving...'.
+
+We created an instance of our car class and called the drive method.
 
 ### Step 2
 
-
+Everything in Ruby is an object. Even the class Car we defined is an object. If that is the case then the Car class must be an instance of some class. What is that class?
 
 ```ruby
+class Car
 
+end
+
+p Car.class
 ```
+
 
 
 
