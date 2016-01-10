@@ -34,6 +34,7 @@ Car.drive
 
 To view the Class method **drive()** as a singleton method, we need to shift the perspective. Shift the perspective from Car class to Car as an instance of Class. We can define the drive class method like this:
 
+```ruby
 Car = Class.new
 
 class << Car
@@ -43,6 +44,8 @@ class << Car
 end
 
 Car.drive
+```
+
 We now see that Car is a instance of class Class so it is a singleton method from that perspective. This accomplishes the same thing as this example:
 
 Car = Class.new
