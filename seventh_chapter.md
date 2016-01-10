@@ -43,8 +43,10 @@ hi
 ```
 
 #### Problems
-This method is invoked immediately.
-Opening the Object class to add the get method makes it available everywhere.
+
+* The **get()** method is invoked immediately.
+* Opening the Object class to add the get method makes it available everywhere.
+
 Step 3
 How to mixin a method to top level?
 
