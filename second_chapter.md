@@ -74,5 +74,5 @@ When you use the Ruby language keyword **class**, Ruby does something like this:
 
 ## Summary
 
-In this chapter, you learned the introspection abilities of Ruby in the context of Ruby Object Model. We were able to query for instance variables, instance methods and ancestors. Why do we need to worry about class hierarchy in Ruby? Because it determines the method look-up in Ruby.
+In this chapter, you learned the introspection abilities of Ruby 
 
