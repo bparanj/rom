@@ -95,6 +95,7 @@ p Car.drive
 
 and this:
 
+```ruby
 class Car
   class << self
     def drive
