@@ -119,6 +119,7 @@ p c.wheels
 
 We can do the same thing we did above like this:
 
+```ruby
 Vehicle = Module.new do
   def wheels
     100
@@ -131,6 +132,8 @@ end
 
 c = Car.new
 p c.wheels
+```
+
 Why would you want to do it the second way? The answer to this question will be discussed in an upcoming article.
 
 Step 9
