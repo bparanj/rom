@@ -282,7 +282,7 @@ This prints:
 [:fly, :drive]
 ```
 
-This:
+These statements:
 
 ```ruby
 p Car.start
