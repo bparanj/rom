@@ -24,6 +24,7 @@ NoMethodError: undefined method ‘get’ for main:Object
 
 We can open the Object class and define the **get()** method:
 
+```ruby
 class Object
   def get(path)
     yield
@@ -33,6 +34,8 @@ end
 get '/' do
   p 'hi'
 end
+```
+
 This prints 'hi'.
 
 Problems
