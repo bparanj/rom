@@ -80,7 +80,13 @@ end
 p Car.singleton_methods
 ```
 
-This prints : [:drive]. The effect is the same as step 1, we can still call the **drive()** method like this:
+This prints: 
+
+```ruby
+[:drive]
+```
+
+The effect is the same as step 1, we can still call the **drive()** method like this:
 
 ```ruby
 Car.drive
