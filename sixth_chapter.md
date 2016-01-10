@@ -188,6 +188,7 @@ An alternative to defining a singleton method using:
 ```ruby
 class << obj
 ```
+
 construct is to mixin the method from a module. Here is an example:
 
 ```ruby
@@ -215,7 +216,7 @@ This prints driving.
 p c.singleton_methods
 ```
 
-This prints [:drive]. This does the same thing we did in previous step.
+This prints [:drive]. This does the same thing we did in the previous step.
 
 ### Step 6
 
