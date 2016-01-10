@@ -129,7 +129,7 @@ at_exit do
 end
 ```
 
-Another way to interrupt the Ctrl-C:
+Another way to interrupt the Ctrl-C is as follows:
 
 ```ruby
 Signal.trap('SIGNINT') do
