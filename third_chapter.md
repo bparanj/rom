@@ -203,4 +203,4 @@ Both versions of the Car examples print 'driving...'. Why would you want to do i
 
 ## Summary
 
-In this article you learned the Ruby's built-in class hierarchy consisting of Class, Object, Module and BasicObject. You also saw how we can create modules and classes by creating them on the fly and adding methods to it.
+In this chapter you learned the Ruby's built-in class hierarchy. The class hierarchy consists of Class, Object, Module and BasicObject. You also saw how we can create modules and classes by creating them on the fly and adding methods to it.
