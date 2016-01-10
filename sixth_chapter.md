@@ -48,6 +48,7 @@ Car.drive
 
 We now see that Car is a instance of class Class so it is a singleton method from that perspective. This accomplishes the same thing as this example:
 
+```ruby
 Car = Class.new
 
 def Car.drive
@@ -55,9 +56,13 @@ def Car.drive
 end
 
 Car.drive
-Step 2
+```
+
+### Step 2
+
 We can also define a class method by defining a method inside the singleton class like this:
 
+```ruby
 class Car
   class << self
     def drive
@@ -67,6 +72,8 @@ class Car
 end
 
 p Car.singleton_methods
+```
+
 This prints : [:drive]. The effect is the same as step 1, we can still call the drive method like this:
 
 Car.drive
