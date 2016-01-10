@@ -42,7 +42,7 @@ This prints:
 hi
 ```
 
-Problems
+#### Problems
 This method is invoked immediately.
 Opening the Object class to add the get method makes it available everywhere.
 Step 3
