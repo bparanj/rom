@@ -145,35 +145,46 @@ io = IO.new(1)
 io.puts 'hello'
 ```
 
-The IO constructor argument 1 here indicates standard output. This prints 'hello' to standard output.
+The IO constructor argument 1 here indicates standard output. This prints **hello** to standard output which is the terminal.
 
-Step 9
+### Step 9
+
 It's the same as doing:
 
+```ruby
 $stdout.puts 'hello'
-Here the $stdout is the global variable for standard output. How come we were able to provide an explicit receiver in this case?
+```
 
-Step 10
+Here the **$stdout** is the global variable for standard output. How come we were able to provide an explicit receiver in this case?
+
+### Step 10
+
 Let's ask Ruby for the public instance methods of IO class.
 
+```ruby
 puts IO.public_instance_methods(false).grep(/put/)
+```
+
 The result shows that the puts is a public method:
 
+```sh
 putc
 puts
-So, in this case we are not calling a private method in Object class but we are calling the public method puts in IO class. By the way, the false argument to the method filters out the methods from it's superclass.
+```
+
+In this case we are not calling a private method in Object class but we are calling the public method **puts** in **IO class**. By the way, the false argument to the method filters out the methods from it's super-class.
 
 Summary
-In this lesson we briefly saw how everything is an object in Ruby and the role of self in a Ruby program. If you can answer the following questions either by creating an experiment or from the top of your head, you are on your way to mastering the Ruby Object Model.
 
-What is self?
-Why an explicit receiver cannot be used to call puts at the top level?
-Where is puts defined if you are calling from top level?
-How is puts available at the top level without a receiver?
-How to grab the top level default object?
+In this chapter we briefly saw how everything is an object in Ruby and the role of **self** in a Ruby program. 
 
+Answer the following questions either by creating an experiment or from your understanding.
 
-
+1. What is self?
+2. Why we cannot use an explicit receiver to call puts at the top level?
+3. Where is puts defined if you are calling from top level?
+4. How is puts available at the top level without a receiver?
+5. How to grab the top level default object?
 
 ## Summary
 
