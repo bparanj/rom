@@ -141,7 +141,10 @@ p Car.singleton_class.ancestors
 
 This shows there is a whole new hierarchy consisting of ghost classes for Car, Object and BasicObject. Compare this to the ancestors of a normal class:
 
+```ruby
 p Car.ancestors
+```
+
 This prints :
 
 [Car, Object, Kernel, BasicObject]
