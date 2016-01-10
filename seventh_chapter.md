@@ -16,7 +16,10 @@ end
 
 If you run this program, you get:
 
+```ruby
 NoMethodError: undefined method ‘get’ for main:Object
+```
+
 Step 2
 We can open the Object class and define the get method:
 
