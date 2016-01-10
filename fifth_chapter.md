@@ -38,7 +38,7 @@ end
 p Car.instance_methods(false).sort
 ```
 
-This prints [] because there is no instance methods in Car. The question is where does the class methods live?
+This prints [] because there is no instance methods in Car. There is class method **drive()**. The question is where does the class methods live?
 
 ### Step 3
 
