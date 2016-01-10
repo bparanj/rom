@@ -57,20 +57,20 @@ When you use the Ruby language keyword **class**, Ruby does something like this:
 
 ```
 
-This prints : 'Greeting'. We know the instance of Greeting, the object 'o' gets created using the Greeting class. We can also get the instance methods, instance variables as follows:
+
+
+
+```ruby
+
+```
+
 
 
 ```ruby
-p o.class.instance_methods(false)
+
 ```
 
-This prints: [:welcome]
 
-```ruby
-p o.instance_variables
-```
-
-This prints: [:@text]
 
 ## Summary
 
