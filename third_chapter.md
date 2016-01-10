@@ -28,15 +28,21 @@ p Class.class
 
 This prints: Class. This seems to be like the chicken and egg problem. How is **Class** created from Class? But Ruby is consistent.
 
-Whenever you use the language construct **class** to create a Class, Ruby uses Class to create instances. The class can be either user defined or the existing Ruby's built-in classes, 
+Whenever you use the language construct **class** to create a Class, Ruby uses Class to create instances. The class can be either user defined or the existing Ruby's built-in classes.
 
-Step 3
-In the previous article, we saw that Object was the superclass of any user defined class. What is the superclass of Object?
+### Step 3
 
+In the previous article, we saw that Object was the super-class of any user defined class. What is the super-class of Object?
+
+```ruby
 p Object.superclass
+```
+
 This prints : BasicObject
 
-Step 4
+### Step 4
+
+```ruby
 p BasicObject.superclass
 prints nil. This means BasicObject is the root of the hierarchy. The BasicObject is an instance of Class. You can verify it like this:
 
