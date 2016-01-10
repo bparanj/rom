@@ -148,6 +148,7 @@ p Car.ancestors
 This prints:
 
 [Car, Object, Kernel, BasicObject]
+
 Now we don't see any ghosts in this case.
 
 Step 7
