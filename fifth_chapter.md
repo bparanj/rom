@@ -93,7 +93,7 @@ end
 p Car.drive
 ```
 
-and this:
+And this:
 
 ```ruby
 class Car
