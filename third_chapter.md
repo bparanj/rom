@@ -170,7 +170,8 @@ This prints:
 
 So you can see we can create instances of Module, Class and Object. Because they have the method **new()**.
 
-Step 10
+### Step 10
+
 We already know that user defined classes are instances of Class. So instead of doing this:
 
 class Car
