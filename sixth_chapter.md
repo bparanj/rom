@@ -32,9 +32,7 @@ This prints : [:drive]. We can call the class method like this:
 Car.drive
 ```
 
-To view the Class method **drive()** as a singleton method, we need to shift the perspective. Shift the perspective from Car class to Car as an instance of Class.
-
-In order to view the Class method drive as a singleton method, you have to shift the perspective from Car class to Car as an instance of Class. We can define the drive class method like this:
+To view the Class method **drive()** as a singleton method, we need to shift the perspective. Shift the perspective from Car class to Car as an instance of Class. We can define the drive class method like this:
 
 Car = Class.new
 
