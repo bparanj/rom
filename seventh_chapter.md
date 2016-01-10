@@ -49,7 +49,8 @@ hi
 
 In Sinatra apps, the get() method gets called only when a request is made to that specific URI. We don't want to pollute the Object with our library methods.
 
-Step 3
+### Step 3
+
 How to mixin a method to top level?
 
 module Kernel
