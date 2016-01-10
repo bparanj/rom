@@ -361,7 +361,7 @@ This still prints:
 Car
 ```
 
-Let's combine these two above into one example:
+Let's combine these two above examples into one example:
 
 ```ruby
 class Car
