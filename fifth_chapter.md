@@ -135,7 +135,10 @@ This prints:
 
 In Ruby 1.9 and later, we can also do:
 
+```ruby
 p Car.singleton_class.ancestors
+```
+
 This shows there is a whole new hierarchy consisting of ghost classes for Car, Object and BasicObject. Compare this to the ancestors of a normal class:
 
 p Car.ancestors
