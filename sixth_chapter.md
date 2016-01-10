@@ -110,7 +110,13 @@ end
 p c.singleton_methods
 ```
 
-This prints : [:drive]. We can call the singleton method drive like this:
+This prints: 
+
+```ruby
+[:drive]
+```
+
+We can call the singleton method drive like this:
 
 ```ruby
 p c.drive
