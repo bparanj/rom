@@ -131,9 +131,11 @@ p Car.superclass
 
 This prints **Object**.
 
-Step 10
+### Step 10
+
 This makes the following code run just fine.
 
+```ruby
 class Car < self.class
   def drive
     puts 'driving...'
@@ -142,30 +144,10 @@ end
 
 c = Car.new
 c.drive
-There is no need to explicitly specify the superclass in this case. But, that's what is going on behind the scenes.
-
-Summary
-In this article, we explored how everything is an object in Ruby. All objects are instances of the Ruby's built-in class called Class. The Ruby built-in Object comes into play in the inheritance hierarchy.
-```ruby
-
 ```
 
-
-
-
-```ruby
-
-```
-
-
-
-```ruby
-
-```
-
-
+There is no need to explicitly specify the super class in this case. But, that's what is going on behind the scenes.
 
 ## Summary
 
-In this chapter, you learned the introspection abilities of Ruby 
-
+In this chapter, we explored how everything is an object in Ruby. All objects are instances of the Ruby's built-in class called Class. The Ruby built-in Object comes into play in the inheritance hierarchy.
