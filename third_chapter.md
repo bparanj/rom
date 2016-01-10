@@ -187,6 +187,7 @@ c.drive
 
 We can do this:
 
+```ruby
 Car = Class.new do
   def drive
     p 'driving...'
@@ -196,6 +197,8 @@ end
 
 c = Car.new
 c.drive
+```
+
 Both versions of the Car examples print 'driving...'. Why would you want to do it the second way? The answer to this question will be discussed in an upcoming article.
 
 Summary
