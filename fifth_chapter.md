@@ -64,9 +64,11 @@ p Car.singleton_methods
 
 This prints [:drive].
 
-Step 4
+### Step 4
+
 To illustrate the point made in the previous step, we can define the class method for Car in it's singleton like this:
 
+```ruby
 class Car
 end
 
@@ -77,8 +79,11 @@ class << Car
 end
 
 p Car.drive
+```
+
 This is same as this:
 
+```ruby
 class Car
   def self.drive
     'driving'
